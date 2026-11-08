@@ -1,0 +1,12 @@
+.star-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;white-space:nowrap}
+.star-btn .star-icon{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round;flex:none}
+.star-btn[aria-pressed=true]{background:#f8edcf;color:#73500e;border-color:#d8bd78}
+.star-btn[aria-pressed=true] .star-icon{fill:#c89835;stroke:#9d7623}
+.practice-star{margin:2px 0 8px}
+.review-control{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:-4px 0 22px}
+.review-control .review-note{font-size:.84rem;color:var(--muted)}
+.reviewed-indicator{color:#336a4c;font-weight:700;float:right}
+.favorite-count{color:#6d7c69;font-size:.78rem;margin-left:5px}
+.storage-warning{margin-bottom:18px}
+.question .answer{max-width:100%;overflow-x:auto}
+@media(max-width:700px){.reviewed-indicator{float:none;margin-left:5px}.review-control{gap:8px}.star-btn{min-height:40px}}
